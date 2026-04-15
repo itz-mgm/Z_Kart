@@ -1,4 +1,4 @@
-package repositor;
+package DB.repositor;
 
 public class DB {
 }
