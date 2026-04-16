@@ -2,10 +2,10 @@ package com.gowri_manikandan.Z_Kart.features.card.details;
 
 import java.util.Scanner;
 
-public class DetailView {
-    private final DetailModel model;
+public class CardDetailView {
+    private final CardDetailModel model;
     private final Scanner scanner = new Scanner(System.in);
-    DetailView(){
-        model = new DetailModel(this);
+    CardDetailView(){
+        model = new CardDetailModel(this);
     }
 }

@@ -2,10 +2,10 @@ package com.gowri_manikandan.Z_Kart.features.customer.details;
 
 import java.util.Scanner;
 
-public class DetailView {
-    private final DetailModel model;
+public class CustomerDetailView {
+    private final CustomerDetailModel model;
     private final Scanner scanner = new Scanner(System.in);
-    DetailView(){
-        model = new DetailModel(this);
+    CustomerDetailView(){
+        model = new CustomerDetailModel(this);
     }
 }
